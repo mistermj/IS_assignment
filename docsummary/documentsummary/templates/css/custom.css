@@ -1,0 +1,92 @@
+.header  {
+	background: url("../images/ice.jpg");
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: 120px 0px 200px 0px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: 0px 0px 3px black;
+	margin-top: -100px;
+}
+.vertical-text  {
+    width:1px;
+    word-wrap: break-word;
+    white-space:pre-wrap; 
+}
+.myimage  {
+	opacity: 0.8;
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+.text-love  {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 24px;
+	text-shadow: 0px 0px 2px black;
+	margin-bottom: 25px;
+}
+.change {
+	background: #151313;
+	height: 50px;
+	color: whitesmoke;
+	text-emphasis-color: whitesmoke;
+	text-align: center;
+	font-size: 28px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	text-shadow: 1px 1px 4px whitesmoke;
+	box-shadow: 0px 0px 2px 2px black;
+	opacity: 0.8;
+	padding: 2px 0px 2px 0px;
+}
+.img-center {margin:0 auto;}
+.txt {
+	font-weight: 700;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+.txt-body  {
+	font-weight: 700;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 28px;
+	color: ghostwhite;
+	text-shadow: 0px 0px 5px black;
+}
+
+.txt-body1  {
+	font-weight: 700;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 28px;
+	color: black;
+	text-shadow: 0px 2px 4px white;
+}
+.body  {
+	background: url("../images/white1.jpg");
+	padding: 80px 0px 100px 0px;
+}
+.hr1  {
+	height: 2px;
+	box-shadow: 0px 0px 2px 2px black;
+}
+.uls  {
+	font-size: 18px;
+	color: whitesmoke;
+	font-weight: 800;
+	margin-bottom: 8px;
+	text-shadow: 0px 0px 2px black;
+}
+hr  {
+	height: 1px;
+	box-shadow: 0px 0px 1px 1px black;
+}
+.footer  {
+	background: url("../images/rain2.jpg");
+	padding: 20px 0px 20px 0px;
+}
+.heading  {
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	font-size: 26px;
+	font-weight: 700;
+	color: black;
+	text-shadow: 0px 0px 2px white;
+}

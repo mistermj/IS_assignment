@@ -1,0 +1,93 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Summarisation</title>
+	<link rel="shortcut icon" href="#" />
+	<link rel="stylesheet" href="{% static 'animate.css' %}" />
+	<link rel="stylesheet" href="/static/bootstrap.min.css" />
+	<link rel="stylesheet" href="/static/font-awesome.min.css" />
+	<link rel="stylesheet" href="/static/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+	<!-- carousel-->
+</head>
+
+<body>
+
+<!-- navigation bar starts here and i have to push elements to right by custom margins and do responsive-push-->
+<!---->
+
+<nav class="navbar1 navbar navbar-toggleable-md navbar-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <img src="/static/#" width="85" height="80" class="d-inline-block" alt="">
+   <a class="navbar-brand" href="index.html"><span class="better-font">Scientific Document Summarisation &nbsp;</span></a>  
+</nav>
+
+<div class="intro-panel">	
+	<div class="container">
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<div class="transparent-div">
+					<p class="text-center intro-text"> Scientific Document Summarisation</p>
+				</div>
+			</div>
+			<div class="col-2"></div>
+		</div><!--
+		<div class="row">
+			<div class="col-12">
+				<p class="text-center intro-text2"> &raquo; &nbsp;LUMS </p>
+			</div>
+		</div>-->
+		<div class="row" style="margin-top: 20px;">
+			<div class="col-12">
+				<center>
+					<form method="POST" enctype="multipart/form-data">
+						{% csrf_token %}
+
+						<input type="file" name="file" class="btn btn-secondary button-kz"> <br /><br />
+						<button type="submit" class="btn btn-primary button-kz">Submit Your Research</button>
+					
+					</form>
+				</center>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section>
+	{% block content %}
+		{{ content }}
+	{% endblock %}
+</section>
+
+<div class="footer-last">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p class="text-center">
+					All Rights Reserved <i class="animated flip infinite fa fa-copyright"></i> 2019-2020
+				</p>	
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- script tags here -->
+	
+	<script src="/static/jquery-3.1.1.min.js"></script>
+	<script src="/static/bootstrap.min.js"></script>
+	
+</body>
+</html>
